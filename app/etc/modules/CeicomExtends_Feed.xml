@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CeicomExtends_Feed>
+        <active>true</active>
+        <codePool>local</codePool>
+        <depends>
+		    <Ranvi_Feed/>
+		</depends>
+        </CeicomExtends_Feed>
+    </modules>
+</config>

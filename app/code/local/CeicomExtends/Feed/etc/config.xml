@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <CeicomExtends_Feed>
+            <version>0.1.0</version>
+        </CeicomExtends_Feed>
+    </modules>
+    <global>
+        <blocks>
+            <ranvi_feed>
+                <rewrite>
+                    <adminhtml_items_edit_tab_main>CeicomExtends_Feed_Block_Adminhtml_Items_Edit_Tab_Main</adminhtml_items_edit_tab_main>
+                </rewrite>
+            </ranvi_feed>
+        </blocks>
+        <models>
+            <ranvi_feed>
+                <rewrite>
+                    <item>CeicomExtends_Feed_Model_Item</item>
+                </rewrite>
+            </ranvi_feed>
+        </models>
+    </global>
+</config>
